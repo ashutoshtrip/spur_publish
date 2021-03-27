@@ -1,0 +1,34 @@
+* 
+{
+  margin: 0;
+
+}
+body{
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", sans-serif;
+ background-image: url('bgimage.jpg');
+
+  background-repeat: no-repeat;
+  height: 100%;
+  background-size: cover;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+
+ 
+  
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

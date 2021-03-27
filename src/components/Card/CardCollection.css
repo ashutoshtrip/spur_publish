@@ -1,0 +1,77 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Satisfy&display=swap');
+
+
+.div1
+{ margin : 20px;
+  display: flex;
+  justify-content: space-evenly;
+ 
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+
+ 
+}
+.div2
+{
+  margin : 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap : wrap;
+  margin-bottom: 30px;
+ 
+}
+.div3
+{margin : 20px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+ 
+}
+.sub-heading {
+  width: 100%;
+}
+
+h2{
+  text-align: center;
+  color: white;
+  font-weight: 300;
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-family: 'Courgette', cursive;
+
+  font-family: 'Satisfy', cursive;
+
+}
+
+.arrow:hover{
+  transform: scale(3.5);
+  transition: 100ms;
+}
+
+
+@media screen and (min-width: 684px) {
+  h2{
+    font-size: 55px;
+  }
+}
+
+@media screen and (max-width: 684px) {
+h2 {
+    font-size: 40px;
+    
+
+
+  }
+}
+
+.rec.rec-arrow 
+{
+  color: white;
+}
+.rec.rec-dot_active 
+{
+ background-color:white;
+
+}

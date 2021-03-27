@@ -1,0 +1,64 @@
+.main-footer {
+ 
+  background-color: #15171c;
+  padding-top: 0.6em;
+  margin-bottom: -5px;
+bottom: 0;
+  text-align: center;
+  
+  width: 100%;
+  height: 151px;
+}
+a.social {
+  margin: 1rem 1.8rem;
+  transition: transform 250ms;
+  display: inline-block;
+  margin-top: 30px;
+}
+
+a.social:hover {
+  transform: scale(1.4);
+}
+a.youtube {
+  color: #ff1500;
+}
+
+a.facebook {
+  color: #7aa4ff;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: white;
+}
+a.google
+{
+  color:white;
+}
+a.quora 
+{
+  color: #ff1500;
+}
+.col-sm
+{
+  font-size: 0.9rem;
+  color:  white;
+ 
+}
+
+h4 
+{
+  color: white;
+ 
+}
+
+@media only screen and (max-width : 600px)
+{
+  .main-footer
+  {
+    height: 214px;
+  }
+}

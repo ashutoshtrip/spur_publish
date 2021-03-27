@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+.h1-shareheader {
+   font-size: 0.6em;
+   font-family: 'Fredoka One', cursive;
+   color: white;
+   padding: 15px ;
+   height : 18%;
+   animation:  pulse;
+   animation-duration: 2.5s;
+   text-align: center;
+   margin:  0px;
+   position: relative;
+   top: 20%;
+}
+
+
+
+.shareheader_back {
+  
+  background: #b92b27;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #1565C0, #b92b27);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #1565C0, #b92b27); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  
+  
+
+  background-position :fixed;
+  height: 180px;
+  width : 100%;
+  border-radius: 30px;
+ box-shadow:  10px 8px 12px  rgb(68, 64, 64);
+
+}
+
+@media screen and (min-width: 684px) {
+  div.shareheader_back {
+    font-size: 90px;
+  }
+}
+
+@media screen and (max-width: 684px) {
+  div.shareheader_back {
+    font-size: 45px;
+    height: 120px;
+
+
+  }
+}
