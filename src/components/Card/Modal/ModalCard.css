@@ -16,14 +16,16 @@
   
   width:50%;
   overflow: auto;
-  height: 420px !important;
+  height: 440px !important;
 border-radius: 10px;
 z-index: 10;
+padding: 30px;
 
 }
 #transition-modal-description
 {
   color: white;
+  margin: 5px;
 }
 #transition-modal-title
 {
@@ -35,4 +37,15 @@ z-index: 10;
   color: #ff7171;
   text-align: center;
   margin-bottom: 10px;
+}
+
+@media screen and (max-width: 760px)
+{
+ 
+  .makeStyles-paper-2
+  {
+    width: 270px;
+    height: 500px !important;
+}
+
 }

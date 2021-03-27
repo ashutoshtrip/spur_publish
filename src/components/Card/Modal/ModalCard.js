@@ -5,7 +5,7 @@ import Backdrop from '@material-ui/core/Backdrop';
 import Fade from '@material-ui/core/Fade';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
 import "./ModalCard.css";
-import {CardDataCode} from '../CardDataCode';
+
 const useStyles = makeStyles((theme) => ({
   modal: {
     display: 'flex',
