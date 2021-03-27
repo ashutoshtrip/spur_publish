@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/spur_publish/static/css/main.717d4214.chunk.css",
+    "main.css": "/spur_publish/static/css/main.5f6d5d8a.chunk.css",
     "main.js": "/spur_publish/static/js/main.04c70f11.chunk.js",
     "main.js.map": "/spur_publish/static/js/main.04c70f11.chunk.js.map",
     "runtime-main.js": "/spur_publish/static/js/runtime-main.69ff12ae.js",
@@ -10,7 +10,7 @@
     "static/js/2.2cba571a.chunk.js.map": "/spur_publish/static/js/2.2cba571a.chunk.js.map",
     "index.html": "/spur_publish/index.html",
     "static/css/2.c5f245e6.chunk.css.map": "/spur_publish/static/css/2.c5f245e6.chunk.css.map",
-    "static/css/main.717d4214.chunk.css.map": "/spur_publish/static/css/main.717d4214.chunk.css.map",
+    "static/css/main.5f6d5d8a.chunk.css.map": "/spur_publish/static/css/main.5f6d5d8a.chunk.css.map",
     "static/js/2.2cba571a.chunk.js.LICENSE.txt": "/spur_publish/static/js/2.2cba571a.chunk.js.LICENSE.txt",
     "static/media/index.css": "/spur_publish/static/media/bgimage.f2e7451c.jpg",
     "static/media/Header.css": "/spur_publish/static/media/images - Copy.2feccfa0.png"
@@ -19,7 +19,7 @@
     "static/js/runtime-main.69ff12ae.js",
     "static/css/2.c5f245e6.chunk.css",
     "static/js/2.2cba571a.chunk.js",
-    "static/css/main.717d4214.chunk.css",
+    "static/css/main.5f6d5d8a.chunk.css",
     "static/js/main.04c70f11.chunk.js"
   ]
 }
