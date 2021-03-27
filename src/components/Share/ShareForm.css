@@ -14,7 +14,7 @@
   background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
   width:50%;
  
-  height: 350px !important;
+  height: 370px !important;
 border-radius: 10px;
 z-index: 10;
 
@@ -98,7 +98,8 @@ font-size: 50px;
   }
   .makeStyles-paper-4{
     height: 440px !important;
-    width: 320px;
+    width: 330px;
+    margin: 2px;
 
   }
   .name-text , .email-text 
