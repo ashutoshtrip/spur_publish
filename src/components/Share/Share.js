@@ -33,7 +33,8 @@ export default class StoryShare extends Component {
         </div>
         </div>
         <div className="text-editor">
-        <SunEditor/>
+       {/* <SunEditor/> */}
+       <textarea className="text-area" placeholder="Welcome to SPUR, Share your success story here" cols="50" rows="25"></textarea>
         </div>
      
       

@@ -8,7 +8,7 @@ text-align: center;
 }
 .header_searchIcon 
 {
-  background-color:#5BB1FD;
+  background-color:#FDB65B;
  margin-left: 1px;
  padding: 8px;
  height: 21px  !important;
@@ -41,7 +41,7 @@ text-align: center;
 {
  
   width: 35px;
-  height: 20px;
+  height: 27px;
   object-fit: contain;
   margin:  5px 5px;
   

@@ -80,15 +80,17 @@ const Sidebar = () => {
        </div>
        
        <div className="head-rocket">
+        
        <div className="header-spur">
-         <h4> SPUR </h4>
+        <Link to ='/'> <h4> SPUR </h4> </Link>
          
        </div>
-       <img className ="logo-rocket" src ="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiioRe-O3h4oU0MutMdr-3nrMw7oFFKVAuSw&usqp=CAU" ></img>
+       <img className ="logo-rocket" src ="https://img.icons8.com/fluent/240/000000/rocket.png" ></img>
+       
        </div>
       <div className ="header-nav">
          <div className="header_option">
-         <span className="sign"> Sign In</span>
+         < Link to ='/login'><span className="sign"> Sign In</span></Link>
          </div>
          <div className="header_option">
          <span className="logout"> Logout</span>

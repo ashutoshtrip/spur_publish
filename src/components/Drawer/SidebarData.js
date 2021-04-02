@@ -11,7 +11,7 @@ import * as BsIcons from 'react-icons/bs';
 export const SidebarData = [
   {
     title: 'Engineering',
-    path: '/engineering',
+    path: '/eng',
     icon: <FaIcons.FaGraduationCap />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -32,7 +32,7 @@ export const SidebarData = [
   },
   {
     title: 'Exams',
-    path: '/exams',
+    path: '/exam',
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
@@ -69,12 +69,12 @@ export const SidebarData = [
   },
   {
     title: 'Medicine',
-    path: '/medicine',
+    path: '/med',
     icon: <FaIcons.FaBriefcaseMedical />
   },
   {
     title: 'Government',
-    path: '/government',
+    path: '/gov',
     icon: <IoIcons.IoMdPeople />
   },
   {

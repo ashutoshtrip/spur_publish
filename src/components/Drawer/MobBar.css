@@ -1,7 +1,7 @@
 .search-small-heading {
  
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   background-color: rgb(24, 21, 21);
 }
@@ -12,7 +12,7 @@
     bottom:40%;
     height: 27px;
     width: 170px;
-      
+
 }
 
 .icon-small{
@@ -31,4 +31,14 @@
     .search-small-heading {
         display: none;
     }
+}
+.sign-in-btn
+{
+  color: white;
+  font-weight: 400;
+ 
+}
+.saved-items
+{
+  color: white;
 }

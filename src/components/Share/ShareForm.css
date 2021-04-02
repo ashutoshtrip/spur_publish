@@ -10,11 +10,10 @@
 
 .makeStyles-paper-4
 {
-  background-color: #ffa69e;
-  background-image: linear-gradient(315deg, #ffa69e 0%, #5d4954 74%);
+  background-image: linear-gradient(352grad, #164364 0%, #373134 74%);
   width:50%;
- 
-  height: 370px !important;
+  border: 3px solid #faeeee !important;
+  height: 400px !important;
 border-radius: 10px;
 z-index: 10;
 
@@ -79,16 +78,31 @@ font-size: 50px;
 }
 .submit-btn-story-form
 {
- background-color: white;
+ background-color: rgb(255, 105, 105);
  width: 90px;
  padding: 1px;
  border-radius: 20px !important;
  margin-left: 30px;
+ margin-top: 20px;
+
+ 
 }
 .submit-btn-story-form:hover
 {
   transform: scale(1.08);
 }
+
+
+.css-yk16xz-control
+{
+  width: 46%;
+position: relative;
+left: 15%;
+bottom: 30%;
+
+}
+
+
 @media screen and (max-width: 760px)
 {
   #story-form-title
@@ -97,9 +111,8 @@ font-size: 50px;
 
   }
   .makeStyles-paper-4{
-    height: 440px !important;
-    width: 330px;
-    margin: 2px;
+    height: 470px !important;
+    width: 320px;
 
   }
   .name-text , .email-text 
@@ -114,6 +127,15 @@ font-size: 50px;
   {
     margin-left: 0px;
   }
+  .css-yk16xz-control
+{
+  width: 90%;
+position: relative;
+left: 1%;
+margin-top: -5px;
+
+}
+
 }
 @media screen and (max-width: 976px) and (min-width: 762px)
  {
@@ -122,7 +144,7 @@ font-size: 50px;
   }
   .makeStyles-paper-4
   {
-    height: 450px !important;
+    height: 500px !important;
   }
   .pos-text
   {
@@ -132,4 +154,18 @@ font-size: 50px;
   {
     margin-left: 50px;
   }
+  .css-yk16xz-control
+{
+  width: 82%;
+position: relative;
+left: 13%;
+bottom: 30%;
+
+}
+
+}
+
+.MuiButton-root
+{
+  color: white !important;
 }

@@ -1,10 +1,10 @@
-export const CardDataCode = [
+export const CardData = [
   {
     name : 'Ashutosh Tripathi',
     position : 'Software Developer',
-    story : "",
+    story : "Hello Hi there everythyinh is ogadfkj  al;kdj;adlfkjd l;kj lkasdj flkdaj sldkfj sdlfkj sdfHello Hi there everythyinh is ogadfkj  al;kdj;adlfkjd l;kj lkasdj flkdaj sldkfj sdlfkj sdfHello Hi there everythyinh is ogadfkj  al;kdj;adlfkjd l;kj lkasdj flkdaj sldkfj sdlfkj sdfHello Hi there everythyinh is ogadfkj  al;kdj;adlfkjd l;kj lkasdj flkdaj sldkfj sdlfkj sdf",
     source : "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCWf5-JXX-yq7ISbqCeCtypusSaT6dedxNTA&usqp=CAU"
-  
+
    },
   {
       name : 'Nitesh Gupta',

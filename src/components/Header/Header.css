@@ -17,7 +17,7 @@ h1 {
 
 .header_back {
   
-  background-image: url("images - Copy.png");
+  background-image: linear-gradient(315deg, #6097ff 0%, #262626 74%);
   background-position: fixed;
  
   height: 180px;

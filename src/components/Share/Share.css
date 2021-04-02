@@ -31,7 +31,7 @@ align-items: center ;
 {
   .sun-editor .se-toolbar
   {
-    visibility:   !important;
+    
   }
   .se-wrapper-inner
   {
@@ -48,4 +48,15 @@ align-items: center ;
 .story-post
 {
   margin-bottom: 35px;
+}
+.img-upload
+{
+  color : white;
+  font-weight: 600;
+}
+
+.text-area
+{
+  margin-top: 10px;
+  margin-bottom: 10px;
 }

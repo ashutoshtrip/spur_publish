@@ -7,6 +7,35 @@ import "./ShareForm.css";
 import Button from '@material-ui/core/Button';
 import Form from 'react-bootstrap/Form';
 
+import {options} from './CatData.js';
+import Select from 'react-select';
+
+
+const groupStyles = {
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
+};
+const groupBadgeStyles = {
+  backgroundColor: '#EBECF0',
+  borderRadius: '2em',
+  color: '#172B4D',
+  display: 'inline-block',
+  fontSize: 12,
+  fontWeight: 'normal',
+  lineHeight: '1',
+  minWidth: 1,
+  padding: '0.16666666666667em 0.5em',
+  textAlign: 'center',
+};
+
+const formatGroupLabel = data => (
+  <div style={groupStyles}>
+    <span>{data.label}</span>
+    <span style={groupBadgeStyles}>{data.options.length}</span>
+  </div>
+);
+
 const useStyles = makeStyles((theme) => ({
   modal: {
     display: 'flex',
@@ -56,21 +85,21 @@ export default function ShareForm() {
           <div className="makeStyles-paper-4">
            
           <Form>
-            <h2 id="story-form-title"> One Last Step !</h2>
+            <h2 id="story-form-title"> One Last Step!</h2>
 
 
 
             <div className="name-div">
   <Form.Group controlId="formBasicName">
     <Form.Label className="email-label">Name</Form.Label>
-    <Form.Control type="name" placeholder="enter name" className="name-text" />
+    <Form.Control type="name" placeholder="Enter name" className="name-text" />
    
   </Form.Group>
 </div>
 <div className="pos-div">
   <Form.Group controlId="formBasicName">
     <Form.Label className="pos-label">Designation</Form.Label>
-    <Form.Control type="name" placeholder="enter designation" className="pos-text" />
+    <Form.Control type="name" placeholder="Enter designation" className="pos-text" />
    
   </Form.Group>
 </div>
@@ -78,17 +107,28 @@ export default function ShareForm() {
 <div className="email-div">
   <Form.Group controlId="formBasicEmail">
     <Form.Label  className="email-label">e-mail</Form.Label>
-    <Form.Control type="email" placeholder="enter email" className="email-text"/>
+    <Form.Control type="email" placeholder="Enter email" className="email-text"/>
    <br></br>
   <Form.Text className="text-muted">
       We'll never share your email with anyone else.
     </Form.Text>
     </Form.Group>
+
   </div>
+  <div className="cat-select"> {/*<CatSelect /> */} 
+  <Select
+    defaultValue={Select}
+    options={options}
+    formatGroupLabel={formatGroupLabel}
+  />
+  
+  
+  </div>
+  
 
   <div className="submit-btn-story-form">
-  <Button variant="primary" type="submit">
-    Submit
+  <Button variant="primary" type="submit"><strong>
+    Submit</strong>
   </Button>
   </div>
 </Form>
